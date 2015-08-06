@@ -7,20 +7,21 @@ How to Install
 ==============
 
 Linux
-=====
+-----
 
+```
 git clone https://github.com/imarin2/PCBMill.git
 
 mv PCBMill pcbmill
 
-zip -r pcbmill.zip pcbmill -x \*.git\*
+zip -r pcbmill.zip pcbmill -x *.git*
+```
 
 Now go to the FAB-UI, plugins (plug icon on the top right of the screen), and upload the generated zip file.
 
-NOTE: If you are seeing this file as a normal text file (not from github), not that \* is markdown for *, so actually the zip command is: zip -r pcbmill.zip pcbmill -x .git . This makes only sense if you are seeing this file as text (e.g. cat README.md)
 
 Windows
-=======
+-------
 
 I have not tried this instructions, because I do not have a windows machine.
 
@@ -35,3 +36,12 @@ I have not tried this instructions, because I do not have a windows machine.
 5. zip this folder to generate "pcbmill.zip".
 
 Now go to the FAB-UI, plugins (plug icon on the top right of the screen), and upload the generated zip file.
+
+
+How to use
+==========
+
+PCBMill usage is described in the FABtotum wiki: http://wiki.fabtotum.com/doku.php?id=pcb_milling_workflow&#overview
+
+Electrical continuity probe cabling is shown there: http://wiki.fabtotum.com/doku.php?id=electrical_continuity_probe
+
